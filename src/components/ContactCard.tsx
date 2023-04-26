@@ -43,8 +43,11 @@ const InfoWrapper = styled.div`
 `;
 
 const Title = styled.h3`
-  margin: 0;
-  font-size: 18px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0d346b;
 `;
 
 const Subtitle = styled.p`
@@ -58,6 +61,8 @@ const Description = styled.div`
   flex-direction: column;
   padding: 16px;
   flex: 1;
+  text-align: center;
+  color: #81848e;
 `;
 
 const ContactCard = () => {

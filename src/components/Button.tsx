@@ -2,16 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
-  padding: 12px 24px;
+  padding: 12px 20px;
   font-size: 14px;
-
   color: #ffffff;
   background-color: #2f1452;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
   display: flex;
+  flex-direction: column;
   align-items: center;
 
   &:hover {
@@ -22,7 +20,6 @@ const StyledButton = styled.button`
 const Icon = styled.img`
   width: 20px;
   height: 20px;
-  margin-right: 8px;
 `;
 
 interface ButtonProps {

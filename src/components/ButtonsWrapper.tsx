@@ -8,7 +8,6 @@ const ButtonContainer = styled.div`
   margin-top: 1px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 `;
 
 interface ButtonsWrapperProps {
