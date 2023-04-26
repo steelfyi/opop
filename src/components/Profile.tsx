@@ -3,7 +3,9 @@ import styled from "styled-components";
 import profileCircle from "../assets/ProfileCircle.png";
 
 const ProfileContainer = styled.div`
-  background-color: #1a003c;
+  background-color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.text};
+
   display: flex;
   flex-direction: column;
   align-items: center;

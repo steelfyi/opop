@@ -10,9 +10,8 @@ const Container = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #ff5f55;
+  background-color: ${({ theme }) => theme.tertiary};
   border: none;
-
   color: white;
   font-size: 14px;
   padding: 18px 24px;

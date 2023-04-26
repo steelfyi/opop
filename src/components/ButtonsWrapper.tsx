@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const ButtonContainer = styled.div`
-  background-color: #2f1452;
+  background-color: ${({ theme }) => theme.secondary};
+  color: ${({ theme }) => theme.text};
+
   height: 60px;
   display: flex;
   margin-top: 1px;

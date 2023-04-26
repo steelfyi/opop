@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   padding: 12px 24px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #1a003c;
+  background-color: ${({ theme }) => theme.primary};
   width: 50%;
 `;
 

@@ -5,7 +5,7 @@ const StyledButton = styled.button`
   padding: 12px 20px;
   font-size: 14px;
   color: #ffffff;
-  background-color: #2f1452;
+  background-color: ${({ theme }) => theme.secondary};
   border: none;
   border-radius: 4px;
   display: flex;
